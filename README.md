@@ -1,11 +1,11 @@
-# 项目介绍
+# 军事知识图谱
 
-- 军事类知识图谱
+东南大学研究生课程《万维网科学专题》课程项目。项目代码结构如下：
 
-[military_crawler](military_kg/military_crawler): 是数据采集的项目
+ - [military_crawler](military_kg/military_crawler): 使用爬虫进行数据采集。
 
-[data_process](military_kg/data_process): 是数据处理的项目
+ - [data_process](military_kg/data_process): 数据处理。
 
-[kg_server](military_kg/kg_server): 是搭建服务器的项目，框架采用的是Django，数据库采用neo4j，知识问答可视化
+ - [kg_server](military_kg/kg_server): 基于Django框架和Neo4j数据库的知识图谱服务器，并实现了知识问答可视化。
 
-[final_data](military_kg/final_data): 为最终的所有数据部分
+ - [final_data](military_kg/final_data): 最终采集的所有数据。
